@@ -29,7 +29,7 @@ function playround(playerSelection, computerSelection){
     else if(playerSelection[0]=="R" && computerSelection[0]=="S" || playerSelection[0]=="P" && computerSelection[0]=="R"  || playerSelection[0]=="S" && computerSelection[0]=="P"){
         result = `You Win! ${playerSelection} beats ${computerSelection}`;
         whoWon = 1;
-    }else if(playerSelection[0]=="Rock" && computerSelection[0]=="P" || playerSelection[0]=="P" && computerSelection[0]=="S" || playerSelection[0]=="S" && computerSelection[0]=="R"){
+    }else if(playerSelection[0]=="R" && computerSelection[0]=="P" || playerSelection[0]=="P" && computerSelection[0]=="S" || playerSelection[0]=="S" && computerSelection[0]=="R"){
         result = `You Lose! ${playerSelection} loses to ${computerSelection}`;
         whoWon = 2;
     }
