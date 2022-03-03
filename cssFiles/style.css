@@ -114,3 +114,16 @@ html{
     }
 
 }
+
+@media(max-width:300px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media(max-width:225px){
+    html{
+        font-size: 25%;
+    }
+
+}
