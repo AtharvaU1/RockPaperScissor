@@ -21,6 +21,7 @@ html{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    width: 100%;
 }
 
 .threeButtons{
@@ -29,6 +30,7 @@ html{
     justify-content: space-between;
     align-items: center;
     height: 40vh;
+    width: 100%;
 }
 
 .threeButtons div{
@@ -45,18 +47,21 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .instructions{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .score{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 .result{
@@ -64,6 +69,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 10vh;
+    width: 100%;
 }
 
 .footer{
@@ -72,6 +78,7 @@ html{
     align-items: center;
     height: 10vh;
     font-size: 75%;
+    width: 100%;
 }
 
 @media(max-width:1040px){
